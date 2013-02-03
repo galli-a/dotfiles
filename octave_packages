@@ -1,0 +1,831 @@
+# Created by Octave 3.6.3, Sat Dec 29 13:55:37 2012 CET <andrea@hex6.homenet.telecomitalia.it>
+# name: local_packages
+# type: cell
+# rows: 1
+# columns: 6
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 16
+# name: name
+# type: sq_string
+# elements: 1
+# length: 9
+dataframe
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+0.9.1
+
+
+# name: date
+# type: sq_string
+# elements: 1
+# length: 10
+2012-02-10
+
+
+# name: author
+# type: sq_string
+# elements: 1
+# length: 13
+Pascal Dupuis
+
+
+# name: maintainer
+# type: sq_string
+# elements: 1
+# length: 20
+The Octave Community
+
+
+# name: title
+# type: sq_string
+# elements: 1
+# length: 10
+Data Frame
+
+
+# name: description
+# type: sq_string
+# elements: 1
+# length: 49
+Data manipulation toolbox similar to R data.frame
+
+
+# name: categories
+# type: sq_string
+# elements: 1
+# length: 29
+data manipulation, statistics
+
+
+# name: depends
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: package
+# type: sq_string
+# elements: 1
+# length: 6
+octave
+
+
+# name: operator
+# type: sq_string
+# elements: 1
+# length: 2
+>=
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+3.2.0
+
+
+
+
+
+
+
+# name: license
+# type: sq_string
+# elements: 1
+# length: 22
+GPL version 3 or later
+
+
+# name: url
+# type: sq_string
+# elements: 1
+# length: 20
+http://octave.sf.net
+
+
+# name: svnrelease
+# type: sq_string
+# elements: 1
+# length: 17
+$Revision: 9615 $
+
+
+# name: dir
+# type: sq_string
+# elements: 1
+# length: 36
+/Users/andrea/octave/dataframe-0.9.1
+
+
+# name: archprefix
+# type: sq_string
+# elements: 1
+# length: 36
+/Users/andrea/octave/dataframe-0.9.1
+
+
+# name: autoload
+# type: scalar
+1
+
+
+# name: loaded
+# type: bool
+1
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 17
+# name: name
+# type: sq_string
+# elements: 1
+# length: 2
+io
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+1.2.0
+
+
+# name: date
+# type: sq_string
+# elements: 1
+# length: 10
+2012-10-27
+
+
+# name: author
+# type: sq_string
+# elements: 1
+# length: 15
+various authors
+
+
+# name: maintainer
+# type: sq_string
+# elements: 1
+# length: 41
+Philip Nienhuis <prnienhuis@users.sf.net>
+
+
+# name: title
+# type: sq_string
+# elements: 1
+# length: 12
+Input/Output
+
+
+# name: description
+# type: sq_string
+# elements: 1
+# length: 33
+Input/Output in external formats.
+
+
+# name: categories
+# type: sq_string
+# elements: 1
+# length: 2
+IO
+
+
+# name: problems
+# type: sq_string
+# elements: 1
+# length: 140
+Default initial Java memory probably too small, increase with java.opts (see documentation). No OXS write support. UNO support experimental.
+
+
+# name: depends
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: package
+# type: sq_string
+# elements: 1
+# length: 6
+octave
+
+
+# name: operator
+# type: sq_string
+# elements: 1
+# length: 2
+>=
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+3.4.0
+
+
+
+
+
+
+
+# name: suggested
+# type: sq_string
+# elements: 1
+# length: 36
+java (>= 1.2.8), windows (>= 1.0.10)
+
+
+# name: autoload
+# type: scalar
+1
+
+
+# name: license
+# type: sq_string
+# elements: 1
+# length: 22
+GPLv3+, simplified BSD
+
+
+# name: url
+# type: sq_string
+# elements: 1
+# length: 20
+http://octave.sf.net
+
+
+# name: dir
+# type: sq_string
+# elements: 1
+# length: 29
+/Users/andrea/octave/io-1.2.0
+
+
+# name: archprefix
+# type: sq_string
+# elements: 1
+# length: 29
+/Users/andrea/octave/io-1.2.0
+
+
+# name: loaded
+# type: bool
+1
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 14
+# name: name
+# type: sq_string
+# elements: 1
+# length: 7
+general
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+1.3.2
+
+
+# name: date
+# type: sq_string
+# elements: 1
+# length: 10
+2012-08-03
+
+
+# name: author
+# type: sq_string
+# elements: 1
+# length: 15
+various authors
+
+
+# name: maintainer
+# type: sq_string
+# elements: 1
+# length: 57
+Octave-Forge community <octave-dev@lists.sourceforge.net>
+
+
+# name: title
+# type: sq_string
+# elements: 1
+# length: 7
+General
+
+
+# name: description
+# type: sq_string
+# elements: 1
+# length: 64
+General tools for Octave, string dictionary, parallel computing.
+
+
+# name: depends
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: package
+# type: sq_string
+# elements: 1
+# length: 6
+octave
+
+
+# name: operator
+# type: sq_string
+# elements: 1
+# length: 2
+>=
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+3.4.3
+
+
+
+
+
+
+
+# name: autoload
+# type: scalar
+1
+
+
+# name: license
+# type: sq_string
+# elements: 1
+# length: 35
+GPLv3+, modified BSD, public domain
+
+
+# name: url
+# type: sq_string
+# elements: 1
+# length: 20
+http://octave.sf.net
+
+
+# name: dir
+# type: sq_string
+# elements: 1
+# length: 34
+/Users/andrea/octave/general-1.3.2
+
+
+# name: archprefix
+# type: sq_string
+# elements: 1
+# length: 34
+/Users/andrea/octave/general-1.3.2
+
+
+# name: loaded
+# type: bool
+1
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 14
+# name: name
+# type: sq_string
+# elements: 1
+# length: 7
+control
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+2.4.1
+
+
+# name: date
+# type: sq_string
+# elements: 1
+# length: 10
+2012-11-01
+
+
+# name: author
+# type: sq_string
+# elements: 1
+# length: 41
+Lukas Reichlin <lukas.reichlin@gmail.com>
+
+
+# name: maintainer
+# type: sq_string
+# elements: 1
+# length: 41
+Lukas Reichlin <lukas.reichlin@gmail.com>
+
+
+# name: title
+# type: sq_string
+# elements: 1
+# length: 15
+Control Systems
+
+
+# name: description
+# type: sq_string
+# elements: 1
+# length: 101
+Computer-Aided Control System Design (CACSD) Tools for GNU Octave, based on the proven SLICOT library
+
+
+# name: depends
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: package
+# type: sq_string
+# elements: 1
+# length: 6
+octave
+
+
+# name: operator
+# type: sq_string
+# elements: 1
+# length: 2
+>=
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+3.6.0
+
+
+
+
+
+
+
+# name: autoload
+# type: scalar
+1
+
+
+# name: license
+# type: sq_string
+# elements: 1
+# length: 6
+GPLv3+
+
+
+# name: url
+# type: sq_string
+# elements: 1
+# length: 43
+http://octave.sf.net, http://www.slicot.org
+
+
+# name: dir
+# type: sq_string
+# elements: 1
+# length: 34
+/Users/andrea/octave/control-2.4.1
+
+
+# name: archprefix
+# type: sq_string
+# elements: 1
+# length: 34
+/Users/andrea/octave/control-2.4.1
+
+
+# name: loaded
+# type: bool
+1
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 15
+# name: name
+# type: sq_string
+# elements: 1
+# length: 7
+specfun
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+1.1.0
+
+
+# name: date
+# type: sq_string
+# elements: 1
+# length: 10
+2011-12-15
+
+
+# name: author
+# type: sq_string
+# elements: 1
+# length: 15
+Various Authors
+
+
+# name: maintainer
+# type: sq_string
+# elements: 1
+# length: 20
+The Octave Community
+
+
+# name: title
+# type: sq_string
+# elements: 1
+# length: 7
+Specfun
+
+
+# name: description
+# type: sq_string
+# elements: 1
+# length: 52
+Special functions including ellipitic functions, etc
+
+
+# name: categories
+# type: sq_string
+# elements: 1
+# length: 7
+Specfun
+
+
+# name: depends
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: package
+# type: sq_string
+# elements: 1
+# length: 6
+octave
+
+
+# name: operator
+# type: sq_string
+# elements: 1
+# length: 2
+>=
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+3.4.0
+
+
+
+
+
+
+
+# name: autoload
+# type: scalar
+1
+
+
+# name: license
+# type: sq_string
+# elements: 1
+# length: 62
+GPL version 3 or later and Modified BSD (see individual files)
+
+
+# name: url
+# type: sq_string
+# elements: 1
+# length: 20
+http://octave.sf.net
+
+
+# name: dir
+# type: sq_string
+# elements: 1
+# length: 34
+/Users/andrea/octave/specfun-1.1.0
+
+
+# name: archprefix
+# type: sq_string
+# elements: 1
+# length: 34
+/Users/andrea/octave/specfun-1.1.0
+
+
+# name: loaded
+# type: bool
+1
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 14
+# name: name
+# type: sq_string
+# elements: 1
+# length: 6
+struct
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 6
+1.0.10
+
+
+# name: date
+# type: sq_string
+# elements: 1
+# length: 10
+2012-05-24
+
+
+# name: author
+# type: sq_string
+# elements: 1
+# length: 68
+Etienne Grossmann <etienne@egdn.net>, Olaf Till <i7tiol@t-online.de>
+
+
+# name: maintainer
+# type: sq_string
+# elements: 1
+# length: 30
+Olaf Till <i7tiol@t-online.de>
+
+
+# name: title
+# type: sq_string
+# elements: 1
+# length: 19
+Structure Handling.
+
+
+# name: description
+# type: sq_string
+# elements: 1
+# length: 45
+Additional Structure manipulations functions.
+
+
+# name: categories
+# type: sq_string
+# elements: 1
+# length: 7
+Structs
+
+
+# name: depends
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: package
+# type: sq_string
+# elements: 1
+# length: 6
+octave
+
+
+# name: operator
+# type: sq_string
+# elements: 1
+# length: 2
+>=
+
+
+# name: version
+# type: string
+# elements: 1
+# length: 5
+2.9.7
+
+
+
+
+
+
+
+# name: autoload
+# type: scalar
+1
+
+
+# name: license
+# type: sq_string
+# elements: 1
+# length: 6
+GPLv3+
+
+
+# name: url
+# type: sq_string
+# elements: 1
+# length: 20
+http://octave.sf.net
+
+
+# name: dir
+# type: sq_string
+# elements: 1
+# length: 34
+/Users/andrea/octave/struct-1.0.10
+
+
+# name: archprefix
+# type: sq_string
+# elements: 1
+# length: 34
+/Users/andrea/octave/struct-1.0.10
+
+
+
+
+
+
+
