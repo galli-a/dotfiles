@@ -1,6 +1,5 @@
 alias rmdu="find ./ -iname '._*' -print -delete"
 alias batteria="ioreg -p IODeviceTree -n 'battery' -w 0 | grep Battery"
-alias cdf='eval `osascript /Applications/Utilities/OpenTerminal.app/Contents/Resources/Scripts/OpenTerminal.scpt `'
 alias pylab="ipython qtconsole --pylab=inline"
 alias pylab2="ipython qtconsole --pylab"
 alias pylabn="ipython notebook --pylab=inline"
