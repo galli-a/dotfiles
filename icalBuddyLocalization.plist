@@ -50,5 +50,17 @@
 	<string>fra %d settimane</string>
 	<key>yesterday</key>
 	<string>ieri</string>
+	<key>noPriority</key>
+    <string>nessuna priorità</string>
+    <key>priorityTitleHigh</key>
+    <string>Alta priorità</string>
+    <key>priorityTitleMedium</key>
+    <string>Priorità media</string>
+    <key>priorityTitleLow</key>
+    <string>Bassa priorità</string>
+    <key>priorityTitleNone</key>
+    <string>Nessuna priorità</string>
+    <key>noItems</key>
+	<string>Niente</string>
 </dict>
 </plist>
