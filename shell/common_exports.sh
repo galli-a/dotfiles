@@ -7,8 +7,8 @@ export PP3DATA="/usr/local/share/pp3/"
 
 export MANPATH="/Users/andrea/Applications/testdisk:/Users/andrea/Applications/pdfjam/man1:$MANPATH"
 
-export PYTHONPATH=~/Python_modules:$PYTHONPATH
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+export PYTHONPATH=~/Python_modules:$PYTHONPATH
 export PYTHONSTARTUP=$HOME/.pythonrc
 
 export PATH=/usr/local/sbin:$PATH
