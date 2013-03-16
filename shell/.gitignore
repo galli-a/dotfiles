@@ -1,0 +1,7 @@
+.DS_store
+
+*~
+*.swp
+
+*.cache
+history.sqlite
