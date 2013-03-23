@@ -151,7 +151,7 @@ font.sans-serif     : Bitstream Vera Sans, Lucida Grande, Verdana, Geneva, Lucid
                             # type1cm, textcomp. Adobe Postscript (PSSNFS) font packages
                             # may also be loaded, depending on your font settings
 
-text.dvipnghack : True      # some versions of dvipng don't handle alpha
+text.dvipnghack : False      # some versions of dvipng don't handle alpha
                              # channel properly.  Use True to correct
                              # and flush ~/.matplotlib/tex.cache
                              # before testing and False to force
