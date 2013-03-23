@@ -33,8 +33,8 @@ BAT_CHARGE=batcharge.py
 export RPROMPT='$(battery_charge)'
 
 ##
-export PROMPT='${smiley} %{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %{$fg[green]%}$(collapse_pwd)%{$reset_color%} $(hg_prompt_info)$(git_super_status)
-$(virtualenv_info)$(prompt_char) '
+export PROMPT='${smiley} %{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %{$fg[green]%}$(collapse_pwd)%{$reset_color%} $(hg_prompt_info)$(git_super_status)$(virtualenv_info)
+$(prompt_char) '
 
 ##
 source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
