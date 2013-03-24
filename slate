@@ -57,3 +57,19 @@ bind pad2:shift;alt resize +0 -10% bottom-left
 
 # undo
 bind 1:ctrl;cmd undo
+
+# modal keybindings
+bind 1:f9 ${bottomleft}
+bind 2:f9 ${bottomhalf}
+bind 3:f9 ${bottomright}
+bind 4:f9 ${lefthalf}
+bind 5:f9 ${full}
+bind 6:f9 ${righthalf}
+bind 7:f9 ${topleft}
+bind 8:f9 ${tophalf}
+bind 9:f9 ${topright}
+bind 0:f9 undo
+bind q:f9 ${leftthird}
+bind w:f9 ${lefttwothirds}
+bind e:f9 ${righttwothirds}
+bind r:f9 ${rightthird}
