@@ -181,7 +181,7 @@ text.dvipnghack : False      # some versions of dvipng don't handle alpha
 #mathtext.it  : serif:italic
 #mathtext.bf  : serif:bold
 #mathtext.sf  : sans
-mathtext.fontset : stix # Should be 'cm' (Computer Modern), 'stix',
+mathtext.fontset : stixsans # Should be 'cm' (Computer Modern), 'stix',
                        # 'stixsans' or 'custom'
 #mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern
                                  # fonts when a symbol can not be found in one of
