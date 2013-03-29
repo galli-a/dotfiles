@@ -29,21 +29,21 @@ bind g:cmd;ctrl;alt;shift grid padding:5 0:6,4
 # Cmd+E brings up window chooser based on alphabet
 bind e:cmd;ctrl;alt;shift hint ASDFGHJKLQWERTYUIOPCVBN 
 
-# Numpad location Bindings
-bind pad1 ${bottomleft}
-bind pad2 ${bottomhalf}
-bind pad3 ${bottomright}
-bind pad4 ${lefthalf}
-bind pad5 ${full}
-bind pad6 ${righthalf}
-bind pad7 ${topleft}
-bind pad8 ${tophalf}
-bind pad9 ${topright}
-bind pad0 undo
-bind pad4:alt ${leftthird}
-bind pad4:cmd ${lefttwothirds}
-bind pad6:alt ${rightthird}
-bind pad6:cmd ${righttwothirds}
+# # Numpad location Bindings
+# bind pad1 ${bottomleft}
+# bind pad2 ${bottomhalf}
+# bind pad3 ${bottomright}
+# bind pad4 ${lefthalf}
+# bind pad5 ${full}
+# bind pad6 ${righthalf}
+# bind pad7 ${topleft}
+# bind pad8 ${tophalf}
+# bind pad9 ${topright}
+# bind pad0 undo
+# bind pad4:alt ${leftthird}
+# bind pad4:cmd ${lefttwothirds}
+# bind pad6:alt ${rightthird}
+# bind pad6:cmd ${righttwothirds}
 
 # resizing operations
 bind pad4:shift resize +10% +0 top-right
@@ -59,16 +59,16 @@ bind pad2:shift;alt resize +0 -10% bottom-left
 bind 1:ctrl;cmd undo
 
 # modal keybindings
-bind 1:f9 ${bottomleft}
-bind 2:f9 ${bottomhalf}
-bind 3:f9 ${bottomright}
-bind 4:f9 ${lefthalf}
-bind 5:f9 ${full}
-bind 6:f9 ${righthalf}
-bind 7:f9 ${topleft}
-bind 8:f9 ${tophalf}
-bind 9:f9 ${topright}
-bind 0:f9 undo
+bind pad1:f9 ${bottomleft}
+bind pad2:f9 ${bottomhalf}
+bind pad3:f9 ${bottomright}
+bind pad4:f9 ${lefthalf}
+bind pad5:f9 ${full}
+bind pad6:f9 ${righthalf}
+bind pad7:f9 ${topleft}
+bind pad8:f9 ${tophalf}
+bind pad9:f9 ${topright}
+bind pad0:f9 undo
 bind q:f9 ${leftthird}
 bind w:f9 ${lefttwothirds}
 bind e:f9 ${righttwothirds}
