@@ -13,6 +13,19 @@ export EDITOR="vim"
 bindkey -e
 
 ##
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+
+HISTSIZE=1000
+if (( ! EUID )); then
+  HISTFILE=~/.history_root
+else
+  HISTFILE=~/.history
+fi
+SAVEHIST=1000
+setopt SHARE_HISTORY
+
+##
 setopt AUTO_CD
 
 ## Colors
