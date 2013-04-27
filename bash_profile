@@ -1,6 +1,8 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 bind '"[A":history-search-backward'
 bind '"[B":history-search-forward'
+set show-all-if-ambiguous on
+set completion-ignore-case on
 
 if [ -f "$HOME/.bash_ps1" ]; then
 	. "$HOME/.bash_ps1"
