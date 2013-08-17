@@ -12,6 +12,7 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 export PYTHONPATH=~/Python_modules:$PYTHONPATH
 export PYTHONSTARTUP=$HOME/.pythonrc
 
+export PATH="/usr/texbin:$PATH"
 export PATH=/usr/local/sbin:$PATH
 export PATH="/usr/local/mysql/bin:$PATH"
 export PATH="/Users/andrea/Applications/M4:$PATH"

@@ -1,5 +1,5 @@
 [user]
-	name = galli_a
+	name = a_galli
 	email = andrea.gallivanoni@gmail.com
 [credential]
 	helper = osxkeychain
@@ -7,8 +7,9 @@
 	excludesfile = /Users/andrea/.gitignore
 [color]
   diff = auto
-  status = auto
+  status = always
   branch = auto
+	ui = true
 [color "status"]
   changed = yellow
   added = green
@@ -27,3 +28,9 @@
 	trustExitCode = true
 [merge]
 	tool = Kaleidoscope
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
