@@ -7,9 +7,9 @@
 	excludesfile = /Users/andrea/.gitignore
 [color]
   diff = auto
-  status = always
+  status = auto
   branch = auto
-	ui = true
+	ui = auto
 [color "status"]
   changed = yellow
   added = green
