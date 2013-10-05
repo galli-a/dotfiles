@@ -28,6 +28,11 @@ setopt SHARE_HISTORY
 ##
 setopt AUTO_CD
 
+##
+autoload -U compinit && compinit
+zstyle ':completion:*' menu select
+setopt menu_complete
+
 ## Colors
 autoload -U colors
 colors
