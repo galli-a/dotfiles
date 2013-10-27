@@ -16,4 +16,3 @@ fi
 
 # export PS1="\[\e[30;44m\]💻  \h \[\e[33;40m\]📂  \w \[\e[47;30m\]\[\e[1m\] 📝 \# \[\e[m\]\n\[\e[30;44m\]➜  \[\e[0m\] "
 # export PS1="💻  \h 📂  \w \[\e[1m\] 📝 \# \[\e[m\]\n➜  \[\e[0m\] "
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
