@@ -1,2 +1,6 @@
 [extensions]
-prompt = ~/hg-prompt/prompt.py
+prompt=~/hg-prompt/prompt.py
+
+[ui]
+username=a_galli <andrea.gallivanoni@gmail.com>
+
