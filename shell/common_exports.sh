@@ -12,7 +12,7 @@ export MANPATH="/Users/andrea/Applications/testdisk:/Users/andrea/Applications/p
 export PYTHONPATH=~/Python_modules:$PYTHONPATH
 export PYTHONSTARTUP=$HOME/.pythonrc
 
-export PATH="/usr/local/CrossPack-AVR/bin":$PATH
+# export PATH="/usr/local/CrossPack-AVR/bin":$PATH
 export PATH="/usr/texbin:$PATH"
 export PATH=/usr/local/sbin:$PATH
 export PATH="/usr/local/mysql/bin:$PATH"
