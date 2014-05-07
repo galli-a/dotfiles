@@ -1,4 +1,4 @@
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+#[[ -f ~/.bashrc ]] && . ~/.bashrc
 bind '"[A":history-search-backward'
 bind '"[B":history-search-forward'
 set show-all-if-ambiguous on
