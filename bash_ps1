@@ -23,9 +23,9 @@ command_style=$reset_style'\[\033[1;29m\]' # bold black
 # Prompt variable:
 PS1="$status_style"'$fill \t\n'"$prompt_style"'${debian_chroot:+($debian_chroot)}\u@\h:\w\$\n>'"$command_style "
 
-# Reset color for command output
-# (this one is invoked every time before a command is executed):
-trap 'echo -ne "\033[00m"' DEBUG
+# # Reset color for command output
+# # (this one is invoked every time before a command is executed):
+# trap 'echo -ne "\033[00m"' DEBUG
 
 
 function prompt_command {
