@@ -1,2 +1,4 @@
 set nocompatible
-filetype plugin on
+syntax on
+set nu
+filetype indent plugin on
