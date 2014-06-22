@@ -1,0 +1,15 @@
+{
+    "filename_with_date_and_episode": "[%(episode)s] - %(episodename)s%(ext)s", 
+    "filename_with_date_without_episode": "[%(episode)s]%(ext)s", 
+    "filename_with_episode": "[%(seasonnumber)02dx%(episode)s] - %(episodename)s%(ext)s", 
+    "filename_with_episode_no_season": "[%(episode)s] - %(episodename)s%(ext)s", 
+    "filename_without_episode": "[%(seasonnumber)02dx%(episode)s]%(ext)s", 
+    "filename_without_episode_no_season": "[%(episode)s]%(ext)s", 
+    "move_files_confirmation": false, 
+    "move_files_destination": "/Documenti/Installazione", 
+    "move_files_destination_date": "/Documenti/Installazione", 
+    "move_files_enable": true, 
+    "recursive": true, 
+    "search_all_languages": false, 
+    "select_first": false
+}
