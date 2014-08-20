@@ -11,3 +11,7 @@ alias fixopenwith="/System/Library/Frameworks/CoreServices.framework/Frameworks/
 alias ql="qlmanage -p &>/dev/null"
 alias evim="vim -u ~/.essential.vim"
 alias free="ruby /Users/andrea/Applications/free-memory.rb"
+alias tls="tmux ls"
+alias tat="tmux attach -t"
+alias tns="tmux new-session -s"
+alias tks="tmux kill-session -t"
