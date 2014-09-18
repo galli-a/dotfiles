@@ -11,3 +11,4 @@ fi
 source ~/.shell/common_exports.sh
 source ~/.shell/common_aliases.sh
 source ~/.shell/functions.sh
+source ~/.fzf.bash

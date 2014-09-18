@@ -60,3 +60,4 @@ $(prompt_char) '
 
 ##
 source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.fzf.zsh
