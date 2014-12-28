@@ -47,3 +47,11 @@ cdf() {
 		echo 'No Finder window found' >&2
 	fi
 }
+
+vman() {
+	vim -c "SuperMan $*"
+
+	if [ "$?" != "0" ]; then
+		echo "No manual entry for $*"
+	fi
+}
