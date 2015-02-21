@@ -8,6 +8,8 @@ fi
 
 #export PS1="\n\[\e[0;37m\]\h:\w \u \$\n> \[\e[0m\]"
 
+export TERM="xterm-256color"
+
 source ~/.shell/common_exports.sh
 source ~/.shell/common_aliases.sh
 source ~/.shell/functions.sh
