@@ -34,7 +34,9 @@ setopt AUTO_CD
 
 ##
 autoload -U compinit && compinit
+# zstyle ':completion:*' menu select '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 zstyle ':completion:*' menu select
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 setopt menu_complete
 
 ## Colors
@@ -60,4 +62,4 @@ $(prompt_char) '
 
 ##
 source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.fzf.zsh
+# source ~/.fzf.zsh
