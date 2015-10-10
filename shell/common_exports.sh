@@ -14,7 +14,7 @@ export PYTHONPATH=$PYTHONUSERBASE:$PYTHONUSERBASE/lib/python/site-packages:$PYTH
 export PYTHONSTARTUP=$HOME/.pythonrc
 
 # export PATH="/usr/local/CrossPack-AVR/bin":$PATH
-export PATH="/usr/texbin:$PATH"
+export PATH="/Library/TeX/texbin:$PATH"
 export PATH=/usr/local/sbin:$PATH
 export PATH="/usr/local/mysql/bin:$PATH"
 export PATH="/Users/andrea/Applications/M4:$PATH"
@@ -27,6 +27,7 @@ export PATH="/Users/andrea/Applications/Esporta_elenco_libri:$PATH"
 export PATH="/Users/andrea/Applications/pcal:$PATH"
 export PATH=/usr/local/bin:$PATH
 export PATH="/Users/andrea/anaconda/bin":$PATH
+export PATH=$PATH:"/Applications/MATLAB_R2015a.app/bin"
 
 export TM_MULTIMARKDOWN_PATH="/Users/andrea/Library/Application Support/MultiMarkdown"
 
