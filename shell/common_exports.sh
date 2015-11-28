@@ -27,7 +27,7 @@ export PATH="/Users/andrea/Applications/Esporta_elenco_libri:$PATH"
 export PATH="/Users/andrea/Applications/pcal:$PATH"
 export PATH=/usr/local/bin:$PATH
 export PATH="/Users/andrea/anaconda/bin":$PATH
-export PATH=$PATH:"/Applications/MATLAB_R2015a.app/bin"
+export PATH=$PATH:"/Applications/MATLAB_R2015b.app/bin"
 
 export TM_MULTIMARKDOWN_PATH="/Users/andrea/Library/Application Support/MultiMarkdown"
 
