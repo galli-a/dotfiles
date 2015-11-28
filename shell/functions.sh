@@ -58,3 +58,12 @@ vman() {
 
 ## easier anybar call
 function anybar() { echo -n $1 | nc -4u -w0 localhost ${2:-1738}; }
+
+# outputs a text file with line numbers
+lno() {
+	if [ $# == 0 ]; then
+		echo "No filename provided."
+	else
+		sed = "$1" | paste -s -d '\t\n' - -
+	fi
+}
