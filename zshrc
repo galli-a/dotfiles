@@ -6,8 +6,8 @@
 #     setopt xtrace prompt_subst
 # fi
 
-##
-autoload zmv
+## help in rename
+autoload -Uz zmv
 
 ##
 source ~/.shell/common_exports.sh
@@ -19,14 +19,18 @@ source ~/.shell/functions.sh
 ##
 export EDITOR="vim"
 export VISUAL=vim
-autoload -U edit-command-line
+autoload -Uz edit-command-line
 zle -N edit-command-line
 bindkey '^x^e' edit-command-line
 bindkey -e
 
 ##
-bindkey "^[[A" history-beginning-search-backward
-bindkey "^[[B" history-beginning-search-forward
+autoload -Uz up-line-or-beginning-search
+autoload -Uz down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+bindkey "^[[A" up-line-or-beginning-search
+bindkey "^[[B" down-line-or-beginning-search
 
 HISTSIZE=1000
 if (( ! EUID )); then
@@ -41,14 +45,14 @@ setopt SHARE_HISTORY
 setopt AUTO_CD
 
 ##
-autoload -U compinit && compinit
+autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 setopt menu_complete
 
 ## Colors
-autoload -U colors
+autoload -Uz colors
 colors
 setopt prompt_subst
 
@@ -70,10 +74,9 @@ $(prompt_char) '
 
 ##
 source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# source ~/.fzf.zsh
 
 ##
-# if [[ "$PROFILE_STARTUP" == true ]]; then
-#     unsetopt xtrace
-#     exec 2>&3 3>&-
-# fi
+if [[ "$PROFILE_STARTUP" == true ]]; then
+    unsetopt xtrace
+    exec 2>&3 3>&-
+fi
