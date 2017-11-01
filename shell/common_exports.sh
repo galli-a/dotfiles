@@ -25,8 +25,8 @@ export PATH="/Users/andrea/Applications/pdfjam/bin:$PATH"
 export PATH="/Users/andrea/Applications/tedist:$PATH"
 export PATH="/Users/andrea/Applications/Esporta_elenco_libri:$PATH"
 export PATH="/Users/andrea/Applications/pcal:$PATH"
-export PATH=/usr/local/bin:$PATH
 export PATH="/Users/andrea/anaconda/bin":$PATH
+export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:"/Applications/MATLAB_R2016a.app/bin"
 export PATH="/Users/andrea/di-master":$PATH
 
