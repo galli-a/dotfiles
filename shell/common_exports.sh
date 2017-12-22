@@ -33,3 +33,5 @@ export PATH="/Users/andrea/di-master":$PATH
 export TM_MULTIMARKDOWN_PATH="/Users/andrea/Library/Application Support/MultiMarkdown"
 
 export PCAL_DIR="/Users/andrea/Applications/pcal"
+
+export MATLAB_EXECUTABLE=/Applications/MATLAB_R2017a.app/bin/matlab
